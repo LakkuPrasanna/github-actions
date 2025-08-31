@@ -1,0 +1,18 @@
+# Core framework
+Django==4.2
+
+# MongoDB support
+djongo
+pymongo
+
+# For running Django in production servers (GitHub Actions simulates this)
+gunicorn
+
+# For building APIs (good practice)
+djangorestframework
+
+# For handling CORS (React frontend <-> Django backend communication)
+django-cors-headers
+
+# Optional: Environment variables (to hide DB passwords, etc.)
+python-dotenv
